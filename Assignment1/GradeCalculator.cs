@@ -1,6 +1,6 @@
 ﻿class GradeCalculator
 {
-    static void Main()
+  static void Main()
     {
 
 while (true)
