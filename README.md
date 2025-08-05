@@ -5,30 +5,18 @@
 1️⃣ Open a terminal in the project folder (e.g., Assignment1):bash
 Copy
 Edit
-cd Assignment1.
+cd any of the task, ie. GradeCalculator, TicketPriceCalculator, TriangleTypeIdentifier
 
 ### 2️⃣ Build & Run a Specific File
 
-Because there are multiple files with their own Main() methods, you must tell dotnet which one to run:
+Because there are multiple files with their own Main() methods, we will run them individually . Here's how to do it for each file:
 
 ▶ Grade Calculator
-
-bash
-Copy
-Edit
-##### dotnet run --project Assignment1.csproj --no-build -p:StartupObject=GradeCalculator
+##### dotnet run 
 ▶ Ticket Price Calculator
-
-bash
-Copy
-Edit
-##### dotnet run --project Assignment1.csproj --no-build -p:StartupObject=TicketPriceCalculator
-▶ Triangle Type Identifier
-
-bash
-Copy
-Edit
-##### dotnet run --project Assignment1.csproj --no-build -p:StartupObject=TriangleTypeIdentifier
+##### dotnet run 
+▶ TriangleTypeIdentifier
+##### dotnet run 
 
 3️⃣ Follow the instructions in each program.
 
